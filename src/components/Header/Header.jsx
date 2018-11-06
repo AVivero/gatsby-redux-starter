@@ -21,7 +21,7 @@ const Header = () => {
             <a className="dropdown nav-item nav-link" key="1" href="https://github.com/AVivero/gatsby-redux-starter">
               <img className="navbar-icon github-icon" src="/gatsby-redux-starter/icons/github.png" alt="GitHub" />
             </a>
-            <a className="dropdown nav-item nav-link" key="2" href="mailto:someone@yoursite.com">
+            <a className="dropdown nav-item nav-link" key="2" href="mailto:alexviveropelaez@gmail.com">
               <i className="navbar-icon material-icons">
                 email
               </i>
