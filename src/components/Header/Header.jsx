@@ -18,14 +18,14 @@ const Header = () => {
             </a>
           </Navbar.Brand>
           <Nav className="navbar-nav ml-auto">
-            <Link className="dropdown nav-item nav-link" key="1" to="https://github.com/AVivero/gatsby-redux-starter">
+            <a className="dropdown nav-item nav-link" key="1" href="https://github.com/AVivero/gatsby-redux-starter">
               <img className="navbar-icon github-icon" src="/gatsby-redux-starter/icons/github.png" alt="GitHub" />
-            </Link>
-            <Link className="dropdown nav-item nav-link" key="2" to="mailto:someone@yoursite.com">
+            </a>
+            <a className="dropdown nav-item nav-link" key="2" href="mailto:someone@yoursite.com">
               <i className="navbar-icon material-icons">
                 email
               </i>
-            </Link>
+            </a>
           </Nav>
         </Navbar.Header>
       </Navbar>
