@@ -1,0 +1,19 @@
+.footer {
+    background: #7269a775;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    p {
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+}
+
+.footer-gatsby {
+    color: #d3d3d378;
+}

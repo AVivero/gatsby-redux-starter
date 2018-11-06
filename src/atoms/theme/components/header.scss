@@ -1,0 +1,51 @@
+.header {
+    .navbar-header {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        .navbar-brand img {
+            width: 60px;
+            height: 60px;
+        }
+        .logo-default {
+            &:hover {
+                filter: brightness(125%);
+            }
+        }
+    }
+    &.header-top-transparent {
+        .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            &:hover, &:active {
+                color: #fff;
+            }
+        }
+        .navbar-toggler.navbar-toggler-right.navbar-toggle {
+            border: none;
+            color: #fff;
+        }
+    }
+    i.navbar-icon {
+        font-size: 42px;
+        color: #181516;
+        background: transparent;
+    }
+    img.navbar-icon {
+        width: 42px;
+        height: 42px;
+        background: transparent;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+
+    .header {
+        .navbar-collapse {
+            height: auto;
+            margin-left: 15px;
+        }
+    }
+
+}

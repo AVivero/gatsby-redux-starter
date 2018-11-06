@@ -1,0 +1,51 @@
+@import url('../support/bootstrap.scss');
+@import url('../../../node_modules/material-icons/iconfont/material-icons.scss');
+
+@import url('./components/header.scss');
+@import url('./components/footer.scss');
+
+body {
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.mainContainer {
+    min-height: 84vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    h1 {
+        font-size: 65px;
+        padding-top: 80px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #795aa4;
+    }
+    h5 {
+        color: #181516;
+        font-weight: 600;
+    }
+}
+
+.github-icon {
+    width: 42px;
+    height: auto;
+    background: lightgray;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.gatsby-square {
+    margin-top: 80px;
+    padding: 0 30px 50px;
+    border-radius: 15px;
+}
+
+@media(max-width: 767px) {
+    .gatsby-square {
+        margin-top: 20px;
+    }
+}
