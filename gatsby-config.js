@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/gatsby-redux-starter',
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
