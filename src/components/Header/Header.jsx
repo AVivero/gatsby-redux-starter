@@ -14,12 +14,12 @@ const Header = () => {
         <Navbar.Header>
           <Navbar.Brand className="navbar-header">
             <a className="navbar-brand" href="https://www.gatsbyjs.org/">
-              <img src="/icons/gatsbyJS.png" alt="logo" className="logo-default" />
+              <img src="/gatsby-redux-starter/icons/gatsbyJS.png" alt="logo" className="logo-default" />
             </a>
           </Navbar.Brand>
           <Nav className="navbar-nav ml-auto">
             <Link className="dropdown nav-item nav-link" key="1" to="/">
-              <img className="navbar-icon github-icon" src="/icons/github.png" alt="GitHub" />
+              <img className="navbar-icon github-icon" src="/gatsby-redux-starter/icons/github.png" alt="GitHub" />
             </Link>
             <Link className="dropdown nav-item nav-link" key="2" to="/">
               <i className="navbar-icon material-icons">
